@@ -14,7 +14,7 @@ namespace Novactive\Bundle\eZMailingBundle\Command;
 
 use Doctrine\ORM\EntityManagerInterface;
 use eZ\Publish\Core\MVC\ConfigResolverInterface;
-use eZ\Publish\Core\Repository\Repository;
+use eZ\Publish\API\Repository\Repository;
 use Novactive\Bundle\eZMailingBundle\Core\IOService;
 use Novactive\Bundle\eZMailingBundle\Entity\Campaign;
 use Novactive\Bundle\eZMailingBundle\Entity\Mailing;
